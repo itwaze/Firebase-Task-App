@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    font-family: Helvetica;
+}
+
+input, button {
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+div:not(#root) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+    word-break: break-all;
+}
